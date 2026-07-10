@@ -4,7 +4,7 @@ import segno
 import io
 @st.dialog('Create New Subject')
 def share_subject_dialog(subject_name,subject_code):
-    app_domain="snapclass-byshweta.streamlit.app"
+    app_domain="snapclass-byshwetakanak.streamlit.app"
     join_url = f"{app_domain}/?join-code={subject_code}"
     st.header("Scan to Join")
     qr=segno.make(join_url)
