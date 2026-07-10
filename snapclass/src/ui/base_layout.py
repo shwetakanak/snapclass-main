@@ -18,8 +18,8 @@ def style_background_home():
                 """
                 ,unsafe_allow_html=True)
     
-    def style_background_dashboard():
-        st.markdown("""
+def style_background_dashboard():
+    st.markdown("""
                 <style>
                     .stApp{
                         background: #E0E3FF !important;
@@ -33,8 +33,8 @@ def style_base_layout():
                 <style>
                 @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis:YEAR@1979&display=swap');
                 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
-                  /*Hide top bar of streamlit*/
-                    #MainMenu,header,footer{
+                  /*Hide top bar of streamlit*/ 
+                 #MainMenu,header,footer{
                     visibility:hidden;
                 } 
                 .block-container{
@@ -42,7 +42,7 @@ def style_base_layout():
                 }  
                 h1{
                     font-family:'Climate Crisis',sans-serif !important;
-                    font-size:3.5rem !important;
+                    font-size:2rem !important;
                     line-height:1.1 !important;
                     margin:0 !important;
                     
@@ -59,7 +59,7 @@ def style_base_layout():
                 }
                 button{
                     border-radius:1.5rem !important;
-                    background:#5865F2 !important;
+                    background-color:#5865F2 !important;
                     color:white !important;
                     padding:10 px 20 px !important;
                     border:none !important;
@@ -67,7 +67,7 @@ def style_base_layout():
                 }
                 button[kind="secondary"]{
                     border-radius:1.5rem !important;
-                    background:#EB459E !important;
+                    background-color:#EB459E !important;
                     color:white !important;
                     padding:10 px 20 px !important;
                     border:none !important;
@@ -75,7 +75,7 @@ def style_base_layout():
                 }
                 button[kind="tertiary"]{
                     border-radius:1.5rem !important;
-                    background:black !important;
+                    background-color:black !important;
                     color:white !important;
                     padding:10 px 20 px !important;
                     border:none !important;
