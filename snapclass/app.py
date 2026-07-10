@@ -6,7 +6,7 @@ from src.components.dialog_auto_enroll import auto_enroll_dialog
 
 
 def main():
-    st.sey_page_config(
+    st.set_page_config(
         page_title='SnapClass - Making Attendance Faster Using AI',
         page_icon="https://i.ibb.co/YTYGn5qV/logo.png"
     )
