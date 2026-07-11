@@ -4,14 +4,15 @@ streamlit
 numpy
 pandas
 face-recognition
-face_recognition_models
+face-recognition-models
+
 
 
 #Face recognition
 scikit-learn
 dlib-bin
 
-#git+https://github.com/ageitgey/face_recognition_models
+git+https://github.com/ageitgey/face_recognition_models
 #setuptools<70.0.0
 
 
