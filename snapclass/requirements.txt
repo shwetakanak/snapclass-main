@@ -3,6 +3,9 @@ streamlit
 #utilities
 numpy
 pandas
+face-recognition
+face_recognition_models
+
 
 #Face recognition
 scikit-learn
