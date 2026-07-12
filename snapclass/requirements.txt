@@ -6,8 +6,6 @@ pandas
 face-recognition
 face-recognition-models
 
-
-
 #Face recognition
 scikit-learn
 
