@@ -103,6 +103,29 @@ def style_base_layout():
         button:hover{
             transform: scale(1.05);
         }
+        /* Text Input */
+        .stTextInput input {
+            background-color: #FFFFFF !important;
+            color: #000000 !important;
+            border: none !important;
+            border-radius: 12px !important;
+        }
+
+        /* Password Input */
+        .stTextInput div[data-baseweb="input"] {
+            background-color: #FFFFFF !important;
+            border-radius: 12px !important;
+        }
+
+        .stTextInput div[data-baseweb="input"] input {
+            background-color: transparent !important;
+            color: #000000 !important;
+        }
+
+        /* Placeholder */
+        .stTextInput input::placeholder {
+            color: #666666 !important;
+        }
 
         </style>
         """,
