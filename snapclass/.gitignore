@@ -3,5 +3,5 @@
 *.pyc
 _pycache_/
 venv/
-.streamlit/
+.streamlit/secrets.toml
 dist/
