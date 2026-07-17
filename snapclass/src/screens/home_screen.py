@@ -3,10 +3,6 @@ from src.components.header import header_home
 from src.ui.base_layout import style_background_home,style_base_layout
 from src.components.footer import footer_home
 
-st.write("Streamlit version:", st.__version__)
-st.write("Theme primary color:", st.get_option("theme.primaryColor"))
-st.write("Theme background:", st.get_option("theme.backgroundColor"))
-st.write("Theme text:", st.get_option("theme.textColor"))
 
 def home_screen():
     
